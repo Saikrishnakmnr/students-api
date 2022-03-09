@@ -1,0 +1,17 @@
+{
+  "name": "students",
+  "version": "1.0.0",
+  "description": "students api service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon student.js",
+    "start:teachers":"nodemon teachers.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
